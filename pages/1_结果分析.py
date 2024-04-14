@@ -2,9 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# 指定默认字体
-plt.rcParams['font.family'] = 'Heiti TC'  # 替换为你选择的字体
-
+plt.rcParams['font.family'] = ['WenQuanYi Zen Hei']
 def main():
     st.title('结果分析')
 
