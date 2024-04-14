@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 指定默认字体
+plt.rcParams['font.family'] = ['WenQuanYi Zen Hei']
 
 def calculate_statistics(df):
     all_score_columns = [col for col in df.columns if col.startswith('一') or col.startswith('二')]
